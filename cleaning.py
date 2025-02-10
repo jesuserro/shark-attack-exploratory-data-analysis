@@ -14,11 +14,3 @@ def clean_columns(df):
 
 def main():
     print("Cleaning data...")
-    
-    df = load_data('data/GSAF5.xls')  # Cargamos el archivo de datos
-
-    clean_columns(df)  # Limpiamos los nombres de las columnas
-    
-    head = show_head(df)  # Mostramos las primeras 5 filas
-
-    return head
