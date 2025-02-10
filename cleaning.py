@@ -1,16 +1,32 @@
 import pandas as pd
 
-def load_data(file_path):
-    df = pd.read_excel(file_path, engine="xlrd")
-    return df
+class DataProcessor:
+    """Clase para cargar, limpiar y visualizar datos."""
 
-# Create fn to retunr the first 5 rows of the data
-def show_head(df):
-    return df.head()
+    def __init__(self, file_path):
+        self.file_path = file_path
+        self.df = None
 
-# Create function to lowercase all columns and remove spaces with underscores
-def clean_columns(df):
-    df.columns = df.columns.str.lower().str.replace(' ', '_')
+    def load_data(self):
+        """Carga datos desde un archivo Excel."""
+        try:
+            self.df = pd.read_excel(self.file_path, engine="xlrd")
+            print(f"✅ Fichero {self.file_path} cargados correctamente.")
+        except Exception as e:
+            print(f"❌ Error al cargar el archivo {self.file_path}: {e}")
+
+    def clean_columns(self):
+        """Normaliza los nombres de las columnas."""
+        if self.df is not None:
+            self.df.columns = self.df.columns.str.lower().str.replace(' ', '_')
+            print("✅ Columnas limpiadas.")
+
+    def show_head(self, n=5):
+        """Muestra las primeras n filas del DataFrame."""
+        if self.df is not None:
+            return self.df.head(n)
+        else:
+            print("❌ No hay datos cargados.")
 
 def main():
-    print("Cleaning data...")
+    print("📌 Módulo 'cleaning.py' listo para usarse.")
