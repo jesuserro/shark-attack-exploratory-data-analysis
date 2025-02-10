@@ -4,9 +4,21 @@ def load_data(file_path):
     df = pd.read_excel(file_path, engine="xlrd")
     return df
 
+# Create fn to retunr the first 5 rows of the data
+def show_head(df):
+    return df.head()
+
+# Create function to lowercase all columns and remove spaces with underscores
+def clean_columns(df):
+    df.columns = df.columns.str.lower().str.replace(' ', '_')
+
 def main():
     print("Cleaning data...")
     
     df = load_data('data/GSAF5.xls')  # Cargamos el archivo de datos
 
-    return df.head()
+    clean_columns(df)  # Limpiamos los nombres de las columnas
+    
+    head = show_head(df)  # Mostramos las primeras 5 filas
+
+    return head
