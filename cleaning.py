@@ -55,5 +55,20 @@ class DataProcessor:
         else:
             print("❌ No hay datos cargados.")
 
+    # Create function to retun the dataframe
+    def get_data(self):
+        """Devuelve el DataFrame."""
+        return self.df
+
+    # Limpia la columna 'type' que contiene estos errores: 
+    # """Columna: type ['Unprovoked' 'Provoked' ' Provoked' 'Questionable' 'Watercraft' 'Sea Disaster' nan '?' 'Unconfirmed' 'Unverified' 'Invalid''Under investigation' 'Boat']""""
+    def clean_type_column(self):
+        """Limpia la columna 'type'."""
+        if self.df is not None:
+            self.df['type'] = self.df['type'].str.strip()
+            print("✅ Columna 'type' limpiada.")
+        else:
+            print("❌ No hay datos cargados.")
+
 def main():
     print("📌 Módulo 'cleaning.py' listo para usarse.")
