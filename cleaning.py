@@ -28,5 +28,32 @@ class DataProcessor:
         else:
             print("❌ No hay datos cargados.")
 
+    # Crea nuevo método para listar las columnas categóricas
+    def categorical_columns(self):
+        """Devuelve las columnas categóricas del DataFrame."""
+        if self.df is not None:
+            return self.df.select_dtypes(include=["object"]).columns
+        else:
+            print("❌ No hay datos cargados.")
+    
+    # Crea nuevo método para listar las columnas numéricas
+    def numerical_columns(self):
+        """Devuelve las columnas numéricas del DataFrame."""
+        if self.df is not None:
+            return self.df.select_dtypes(include=["number"]).columns
+        else:
+            print("❌ No hay datos cargados.")
+
+    # Crea fn para iterar por columnas categorícas y mostrar sus valores únicos
+    def unique_values(self):
+        """Muestra los valores únicos de las columnas categóricas."""
+        if self.df is not None:
+            for col in self.categorical_columns():
+                print(f"Columna: {col}")
+                print(self.df[col].unique())
+                print("-" * 50)
+        else:
+            print("❌ No hay datos cargados.")
+
 def main():
     print("📌 Módulo 'cleaning.py' listo para usarse.")
