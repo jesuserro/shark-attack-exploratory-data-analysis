@@ -71,6 +71,12 @@ class DataProcessor:
             print("❌ No hay datos cargados.")
 
     # Día 2
+    # 1. GESTIÓN DE VALORES NULOS
+    # - Detectar % nulos
+    # - Decidir si imputamos o eliminamos
+    # - Imputar con: 
+    #   - númerica: media (distribución no simétrica) o mediana (simétrica)
+    #   - categórica: moda (la más frecuente)
 
     # Crea nuevo método para detectar las columnas con valores nulos usando df.isna().sum().any()
     # Y cuenta el númeroi de nulos para cada columna con df.isna().sum()
@@ -86,6 +92,37 @@ class DataProcessor:
         else:
             print("❌ No hay datos cargados.")
  
+    # Crea nueva función para calcular el número de registros con muchos nulos (threshold = 3)
+    def many_missing_values(self, threshold=3):
+        """Calcula el número de registros con muchos valores nulos."""
+        if self.df is not None:
+            many_missing = self.df.isna().sum(axis=1) >= threshold
+            return many_missing.sum()
+        else:
+            print("❌ No hay datos cargados.")
+
+    # Crea nueva función para rellenar con un -1 los valores nulos de la columna 'X'
+    def fill_nulls(self, column):
+        """Rellena los valores nulos de una columna con -1."""
+        if self.df is not None:
+            self.df[column].fillna(-1, inplace=True)
+            print(f"✅ Columna '{column}' rellenada con -1.")
+        else:
+            print("❌ No hay datos cargados.")
+
+    # 2. GESTIÓN DE VALORES DUPLICADOS
+
+    # Poner df.shape para ver la evolución del limpiado de datos
+
+    # Crea método para detectar duplicados a través de un campo determinado (subset)
+    def find_duplicates(self, subset):
+        """Detecta registros duplicados."""
+        if self.df is not None:
+            duplicates = self.df.duplicated(subset=subset, keep=False)
+            return self.df[duplicates]
+        else:
+            print("❌ No hay datos cargados.")
+   
 
 def main():
     print("📌 Módulo 'cleaning.py' listo para usarse.")
