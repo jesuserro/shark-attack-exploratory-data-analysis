@@ -72,6 +72,10 @@ class DataProcessor:
 
     # Día 2
 
+    # Renomar esta clase a Cleaner y las otras a: Nullator, Duplicator, Formatter
+    # - partir clase en 3: DataProcessor, MissingValues, Duplicates
+    # - cada clase con una detección y gestión de valores nulos, duplicados y formateo de datos
+
     # 1. GESTIÓN DE VALORES NULOS
 
     # - Detectar % nulos
@@ -126,6 +130,8 @@ class DataProcessor:
             print("❌ No hay datos cargados.")
 
     # 3. FORMATEO DE DATOS
+
+    # Detectar valore únicos de la columna 
 
 def main():
     print("📌 Módulo 'cleaning.py' listo para usarse.")
