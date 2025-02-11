@@ -72,16 +72,18 @@ class DataProcessor:
 
     # Crea nuevo método para detectar las columnas con valores nulos usando df.isna().sum().any()
     # Y cuenta el númeroi de nulos para cada columna con df.isna().sum()
+    # Hazlo mostrando % de nulos por columna: df.isna().mean() * 100
     def missing_values(self):
-        """Detecta y cuenta los valores nulos del DataFrame."""
+        """Muestra las columnas con valores nulos y su porcentaje."""
         if self.df is not None:
             if self.df.isna().sum().any():
-                print("✅ Hay valores nulos en el DataFrame.")
-                print(self.df.isna().sum())
+                print("Columnas con valores nulos:")
+                print(self.df.isna().mean() * 100)
             else:
-                print("✅ No hay valores nulos en el DataFrame.")
+                print("✅ No hay valores nulos.")
         else:
             print("❌ No hay datos cargados.")
+ 
 
 def main():
     print("📌 Módulo 'cleaning.py' listo para usarse.")
