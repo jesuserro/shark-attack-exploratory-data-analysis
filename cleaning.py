@@ -70,7 +70,7 @@ class DataProcessor:
         else:
             print("❌ No hay datos cargados.")
 
-    # Crea nuevo mñetodo para detectar las columnas con valores nulos usando df.isna().sum().any()
+    # Crea nuevo método para detectar las columnas con valores nulos usando df.isna().sum().any()
     # Y cuenta el númeroi de nulos para cada columna con df.isna().sum()
     def missing_values(self):
         """Detecta y cuenta los valores nulos del DataFrame."""
