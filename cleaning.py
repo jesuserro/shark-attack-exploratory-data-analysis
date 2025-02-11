@@ -73,7 +73,7 @@ class DataProcessor:
     # Día 2
 
     # Renomar esta clase a Cleaner y las otras a: Nullator, Duplicator, Formatter
-    # - partir clase en 4: DataProcessor, ANÁLISIS INICIAL, MissingValues, Duplicates, FilterData (precios mayores de la media, ventas en 2021, etc.)
+    # - partir clase en 4: DataProcessor, ANÁLISIS INICIAL de las columnas, MissingValues, Duplicates, FilterData (precios mayores de la media, ventas en 2021, etc.)
     # - cada clase con una detección y gestión de valores nulos, duplicados y formateo de datos
     # Usar:  isnull, fillna, dropna, apply
 
