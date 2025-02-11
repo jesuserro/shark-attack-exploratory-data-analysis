@@ -71,7 +71,9 @@ class DataProcessor:
             print("❌ No hay datos cargados.")
 
     # Día 2
+
     # 1. GESTIÓN DE VALORES NULOS
+
     # - Detectar % nulos
     # - Decidir si imputamos o eliminamos
     # - Imputar con: 
@@ -122,7 +124,8 @@ class DataProcessor:
             return self.df[duplicates]
         else:
             print("❌ No hay datos cargados.")
-   
+
+    # 3. FORMATEO DE DATOS
 
 def main():
     print("📌 Módulo 'cleaning.py' listo para usarse.")
