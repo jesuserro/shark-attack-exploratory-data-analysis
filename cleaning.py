@@ -75,6 +75,7 @@ class DataProcessor:
     # Renomar esta clase a Cleaner y las otras a: Nullator, Duplicator, Formatter
     # - partir clase en 4: DataProcessor, MissingValues, Duplicates, FilterData (precios mayores de la media, ventas en 2021, etc.)
     # - cada clase con una detección y gestión de valores nulos, duplicados y formateo de datos
+    # Usar:  isnull, fillna, dropna, apply
 
     # 1. GESTIÓN DE VALORES NULOS
 
@@ -145,6 +146,7 @@ class DataProcessor:
     #       - filtered_df = df[condition] -> filtered_df = df[df.Fare > df.Fare.mean()]
     #   - condition = df.continente == 'Europe'
     #       - df_eu = df[condition]
+
 
 def main():
     print("📌 Módulo 'cleaning.py' listo para usarse.")
