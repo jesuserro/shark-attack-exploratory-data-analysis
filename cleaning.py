@@ -73,7 +73,7 @@ class DataProcessor:
     # Día 2
 
     # Renomar esta clase a Cleaner y las otras a: Nullator, Duplicator, Formatter
-    # - partir clase en 3: DataProcessor, MissingValues, Duplicates
+    # - partir clase en 4: DataProcessor, MissingValues, Duplicates, FilterData (precios mayores de la media, ventas en 2021, etc.)
     # - cada clase con una detección y gestión de valores nulos, duplicados y formateo de datos
 
     # 1. GESTIÓN DE VALORES NULOS
@@ -131,7 +131,20 @@ class DataProcessor:
 
     # 3. FORMATEO DE DATOS
 
-    # Detectar valore únicos de la columna 
+    # 3.1 Detectar valore únicos de la columna 
+    # 3.2 Gestionar
+    # - round() para redondear
+    # - str.strip() para quitar espacios en blanco
+    # - usar apply() para aplicar una función a una columna: Ingredientes: fn + col -> nueva columna
+    # - Example: df['yob'] = df['Age'].apply(lambda age: 2021 - age)
+
+    # 4 FILTROS DE DATOS (FILTERING DATA)
+
+    # - Ejemplos: 
+    #   - precios por encima de la media: df.Fare > df.Fare.mean()
+    #       - filtered_df = df[condition] -> filtered_df = df[df.Fare > df.Fare.mean()]
+    #   - condition = df.continente == 'Europe'
+    #       - df_eu = df[condition]
 
 def main():
     print("📌 Módulo 'cleaning.py' listo para usarse.")
