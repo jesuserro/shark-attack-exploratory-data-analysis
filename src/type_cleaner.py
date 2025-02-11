@@ -26,8 +26,7 @@ class TypeCleaner:
 
             # Función de limpieza con apply()
             def clean_value(value):
-                # if pd.isna(value) or value in ["?", "Unconfirmed", "Unverified", "Invalid", "Under investigation"]:
-                if pd.isna(value) or value in ["?", "Invalid"]:
+                if pd.isna(value) or value in ["?", "Unconfirmed", "Unverified", "Invalid", "Under investigation"]:
                     return None  # Convertimos valores problemáticos a NaN
                 return str(value).strip()  # Eliminamos espacios extra
 
