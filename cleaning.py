@@ -70,6 +70,8 @@ class DataProcessor:
         else:
             print("❌ No hay datos cargados.")
 
+    # Día 2
+
     # Crea nuevo método para detectar las columnas con valores nulos usando df.isna().sum().any()
     # Y cuenta el númeroi de nulos para cada columna con df.isna().sum()
     # Hazlo mostrando % de nulos por columna: df.isna().mean() * 100
