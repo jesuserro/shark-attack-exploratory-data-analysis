@@ -2,7 +2,7 @@
 
 ## Estructura
 
-```
+``` txt
 shark_attacks_project/
 │── data/                        # Carpeta para almacenar los datos
 │   ├── raw/                     # Datos originales sin procesar
