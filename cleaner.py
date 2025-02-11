@@ -1,6 +1,6 @@
 import pandas as pd
 
-class DataProcessor:
+class Cleaner:
     """Clase para cargar, limpiar y visualizar datos."""
 
     def __init__(self, file_path):
