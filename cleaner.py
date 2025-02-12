@@ -157,6 +157,10 @@ class Cleaner:
                 # - Almu usa mucho left, manteniendo el dataframe de la izquierda
         # - join: unión a través de los índices
 
+    # AGREGACIÓN y ANáLISIS
+    # - df.groupby(columna categórica Agrupada/grupos)[col numérica a la que aplicar estadistico].estadistico()
+    # - df.groupby(['Sex', ''])['Age'].agg(['count', 'mean', 'std'])
+    # - Después aplicar filtros (.filter) con estas agregaciones
 
 
 def main():
