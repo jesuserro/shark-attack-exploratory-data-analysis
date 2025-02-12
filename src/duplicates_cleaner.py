@@ -16,7 +16,7 @@ class DuplicatesCleaner:
 
     def remove_duplicates(self):
         """
-        Elimina duplicados en la columna 'case_number'.
+        Elimina duplicados en la columna 'case_number', manteniendo la primera ocurrencia.
         """
         if "case_number" in self.original_df.columns:
             self.cleaned_df = self.original_df.copy()
@@ -24,8 +24,8 @@ class DuplicatesCleaner:
             # Mostrar tamaño antes
             print(f"\n🔹 Tamaño antes de eliminar duplicados: {self.cleaned_df.shape}")
 
-            # Eliminar duplicados
-            self.cleaned_df.drop_duplicates(subset=["case_number"], inplace=True)
+            # Eliminar duplicados, manteniendo la primera ocurrencia
+            self.cleaned_df.drop_duplicates(subset=["case_number"], keep='first', inplace=True)
 
             # Mostrar tamaño después
             print(f"✅ Tamaño después de eliminar duplicados: {self.cleaned_df.shape}")

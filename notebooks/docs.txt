@@ -1,0 +1,25 @@
+# Número de valores nulos por columna:
+
+date                 0
+year                 2
+type               570
+country             50
+state              477
+location           558
+activity           580
+name               217
+sex                579
+age               2954
+injury              34
+fatal_y/n          552
+time              3476
+species           3054
+source              19
+pdf                  1
+href_formula         5
+href                 3
+case_number          1
+case_number.1        2
+original_order       1
+unnamed:_21       6777
+unnamed:_22       6776
