@@ -1,4 +1,4 @@
-🔹 Columnas categóricas y número de valores únicos:
+# Columnas categóricas y número de valores únicos:
 
 date             5871
 type                6
