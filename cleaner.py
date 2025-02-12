@@ -148,5 +148,16 @@ class Cleaner:
     #       - df_eu = df[condition]
 
 
+    # Día 3
+
+    # - Combining get_data
+        # - concat: para unir verticalmente
+        # - merge: para unir horizontalmente por una columna en común (o más)
+            # - how: inner, outer, left, right
+                # - Almu usa mucho left, manteniendo el dataframe de la izquierda
+        # - join: unión a través de los índices
+
+
+
 def main():
     print("📌 Módulo 'cleaning.py' listo para usarse.")
