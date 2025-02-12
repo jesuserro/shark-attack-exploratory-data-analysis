@@ -1,3 +1,26 @@
+🔹 Columnas categóricas y número de valores únicos:
+
+date             5871
+type                6
+country           152
+state             871
+location         4400
+activity         1575
+name             5571
+sex                 2
+age               240
+injury           3989
+time                4
+species          1646
+source           5191
+pdf              6769
+href_formula     6765
+href             6758
+case_number      6777
+case_number.1    6774
+unnamed:_21         1
+unnamed:_22         2
+
 # Número de valores nulos por columna:
 
 date                 0
