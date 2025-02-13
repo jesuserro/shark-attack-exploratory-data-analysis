@@ -19,6 +19,7 @@ class SpeciesCleaner:
         Limpia la columna 'species':
         - Normaliza nombres de especies
         - Agrupa especies por tamaño
+        - Rellena valores nulos con la moda
         """
         if "species" in self.original_df.columns:
             self.cleaned_df = self.original_df.copy()
@@ -106,7 +107,11 @@ class SpeciesCleaner:
 
             self.cleaned_df["species"] = self.cleaned_df["species"].apply(clean_value)
 
-            print("✅ Columna 'species' limpiada.")
+            # Rellenar valores nulos con la moda
+            mode_value = self.cleaned_df["species"].mode()[0]
+            self.cleaned_df["species"].fillna(mode_value, inplace=True)
+
+            print("✅ Columna 'species' limpiada y valores nulos rellenados con la moda.")
         else:
             print("❌ La columna 'species' no existe en el DataFrame.")
 
