@@ -1,1 +1,6 @@
-xlrd>=2.0.1
+pandas
+geopandas
+geodatasets
+matplotlib
+openpyxl
+xlrd
