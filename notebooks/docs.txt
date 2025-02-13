@@ -1,3 +1,44 @@
+|     | date                |   year | type       | country          | state                 | location                       | activity                | name               | sex   |   age | injury                                                            |   fatal | time    | species          | source                      | pdf                          | href_formula                                                                       | href                                                                               | case_number   | case_number.1   |   original_order |   unnamed:_21 |   unnamed:_22 |
+|----:|:--------------------|-------:|:-----------|:-----------------|:----------------------|:-------------------------------|:------------------------|:-------------------|:------|------:|:------------------------------------------------------------------|--------:|:--------|:-----------------|:----------------------------|:-----------------------------|:-----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|:--------------|:----------------|-----------------:|--------------:|--------------:|
+|   0 | 2025-02-07 00:00:00 |   2025 | Unprovoked | Turks and Caicos | nan                   | Thompson Cove Beach            | Swimming                | Unknown            | F     |    55 | Unknown                                                           |       0 | Unknown | Unknown          | Todd Smith: Platform X      | nan                          | nan                                                                                | nan                                                                                | nan           | nan             |              nan |           nan |           nan |
+| 187 | 25-Sep-2022         |   2022 | Unprovoked | SOUTH AFRICA     | Western Cape Province | Central Beach, Plettenberg Bay | Swimming                | Kimon Bisogno      | F     |    39 | FATAL                                                             |       1 | M       | White shark, 13' | Mirror, 9/25/2022           | 2022.09.25-Plett.pdf         | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.09.25-Plett.pdf         | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.09.25-Plett.pdf         | 2022.09.25    | 2022.09.25      |             6802 |           nan |           nan |
+| 189 | 06-Sep-2022         |   2022 | Unprovoked | BAHAMAS          | nan                   | Green Cay                      | Snorkeling              | Caroline DiPlacido | F     |    58 | FATAL                                                             |       1 | T       | Bull shark       | B. Myatt, GSAF              | 2022.09.06-Bahamas.pdf       | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.09.06-Bahamas.pdf       | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.09.06-Bahamas.pdf       | 2022.09.06    | 2022.09.06      |             6801 |           nan |           nan |
+| 190 | 03-Sep-2022         |   2022 | Unprovoked | USA              | Hawaii                | Lower Paia Beach Park, Maui    | Swimming  or Snorkeling | female             | F     |    51 | Injuries to left arm and right hand                               |       0 | T       | nan              | Star Advertiser, 9/3/2022   | 2022.09.03-Maui.pdf          | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.09.03-Maui.pdf          | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.09.03-Maui.pdf          | 2022.09.03    | 2022.09.03      |             6800 |           nan |           nan |
+| 191 | 31-Aug-2022         |   2022 | Unprovoked | AUSTRALIA        | New South Wales       | Avoca                          | Surfing                 | Sunni Pace         | M     |    14 | Puncture wounds to right hand & forearm                           |       0 | M       | Bronze whaler    | Surfline, 9/2/2022          | 2022.08.31-Pace.pdf          | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.31-Pace.pdf          | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.31-Pace.pdf          | 2022.08.31    | 2022.08.31      |             6799 |           nan |           nan |
+| 192 | 17-Aug-2022         |   2022 | Provoked   | AUSTRALIA        | New South Wales       | Coffs Harbour                  | Kayaking                | John Vincent       | M     |   nan | No injury, kayak bitten in half                                   |       0 | Unknown | White shark, 3 m | A Currie. GSAF              | 2022.08.17-CoffsHarbour.pdf  | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.17-CoffsHarbour.pdf  | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.17-CoffsHarbour      | 2022.08.17    | 2022.08.17      |             6798 |           nan |           nan |
+| 193 | 15-Aug-2022         |   2022 | Unprovoked | USA              | South Carolina        | Myrtle Beach, Horry County     | Swimming                | female             | F     |   nan | Minor injury to leg                                               |       0 | M       | nan              | C. Creswell, GSAF           | 2022.08.15.c-MyrtleBeach.pdf | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.15.c-MyrtleBeach.pdf | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.15.c-MyrtleBeach.pdf | 2022.08.15.c  | 2022.08.15.c    |             6797 |           nan |           nan |
+| 194 | 15-Aug-2022         |   2022 | Unprovoked | USA              | South Carolina        | Myrtle Beach, Horry County     | Standing                | Karrren Sites      | F     |   nan | Multiple lLacerations to right forearm                            |       0 | T       | Blacktip shark   | C. Creswell, GSAF           | 2022.08.15.b-Sites.pdf       | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.15.b-Sites.pdf       | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.15.b-Sites.pdf       | 2022.08.15.b  | 2022.08.15.b    |             6796 |           nan |           nan |
+| 195 | 15-Aug-2022         |   2022 | Unprovoked | AUSTRALIA        | Westerm Australia     | Goode Beach                    | Spearfishing            | Luke Pasco         | M     |    17 | Lacerations to lower legs                                         |       0 | Unknown | White shark      | S. De March, GSAF           | 2022.08.15.a-Pasco.pdf       | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.15.a-Pasco.pdf       | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.15.a-Pasco.pdf       | 2022.08.15.a  | 2022.08.15.a    |             6795 |           nan |           nan |
+| 196 | 13-Aug-2022         |   2022 | Unprovoked | USA              | Florida               | Looe Key, Monroe County        | Snorkeling              | Jameson Reeder Jr, | M     |    10 | Lower left leg severely bitten, necessitating surgical amputation |       0 | T       | Bull shark, 9'   | Orlando Sentinel, 8/15/2022 | 2022.08.13-Reeder.pdf        | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.13-Reeder.pdf        | http://sharkattackfile.net/spreadsheets/pdf_directory/2022.08.13-Reeder.pdf        | 2022.08.13    | 2022.08.13      |             6794 |           nan |           nan |
+
+
+
+Dtypes:
+    date               object
+    year              float64
+    type               object
+    country            object
+    state              object
+    location           object
+    activity           object
+    name               object
+    sex                object
+    age                object
+    injury             object
+    fatal             float64
+    time               object
+    species            object
+    source             object
+    pdf                object
+    href_formula       object
+    href               object
+    case_number        object
+    case_number.1      object
+    original_order    float64
+    unnamed:_21        object
+    unnamed:_22        object
+    dtype: object
+
 # Columnas categóricas y número de valores únicos:
 
 date             5871
