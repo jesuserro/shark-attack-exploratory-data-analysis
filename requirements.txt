@@ -4,3 +4,5 @@ geodatasets
 matplotlib
 openpyxl
 xlrd
+geoplot
+cartopy
