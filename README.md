@@ -1,45 +1,38 @@
 # Shark Attacks
 
-## Estructura
+## Análisis Exploratorio de Datos (EDA)
 
-``` txt
-shark_attacks_project/
-│── data/                        # Carpeta para almacenar los datos
-│   ├── raw/                     # Datos originales sin procesar
-│   │   ├── GSAF5.xls            # Archivo Excel con los datos de ataques de tiburones
-│   ├── processed/                # Datos limpios y transformados
-│   ├── final/                    # Datos listos para su análisis
-│
-│── notebooks/                    # Notebooks de Jupyter para análisis y documentación
-│   ├── main.ipynb                # Notebook principal con análisis y explicación para el cliente
-│   ├── exploratory_analysis.ipynb # Análisis exploratorio inicial (EDA)
-│
-│── src/                          # Código fuente de las clases y funciones
-│   ├── __init__.py               # Hace que esta carpeta sea un paquete Python
-│   ├── data_loader.py            # Clase para cargar datos
-│   ├── cleaner.py                # Clase para limpiar y normalizar los datos
-│   ├── nullator.py               # Clase para gestionar valores nulos
-│   ├── duplicator.py             # Clase para manejar duplicados
-│   ├── filtrator.py              # Clase para filtrar columnas relevantes
-│   ├── analyzer.py               # Clase para análisis inicial (EDA)
-│   ├── visualizer.py             # Clase para visualización de datos
-│
-│── scripts/                      # Scripts ejecutables de automatización
-│   ├── run_cleaning.py           # Script para ejecutar la limpieza de datos
-│   ├── run_analysis.py           # Script para ejecutar el análisis final
-│
-│── reports/                      # Documentación y reportes generados
-│   ├── figures/                  # Gráficos generados en el análisis
-│   ├── summary.md                # Resumen del análisis para el cliente
-│
-│── tests/                        # Pruebas unitarias para el código
-│   ├── test_cleaner.py           # Pruebas para la clase Cleaner
-│   ├── test_nullator.py          # Pruebas para la clase Nullator
-│   ├── test_duplicator.py        # Pruebas para la clase Duplicator
-│
-│── .gitignore                     # Archivos a ignorar en Git
-│── README.md                      # Documentación del proyecto
-│── requirements.txt               # Lista de paquetes de Python necesarios
-│── setup.py                       # Script de instalación del paquete (opcional)
+### Evolución Histórica de Ataques de Tiburones
 
-```
+![Historical Attacks](img/historical_attacks.png)
+- **Conclusión:** La cantidad de ataques de tiburones ha mostrado una tendencia creciente a lo largo de los años, con picos significativos en décadas recientes.
+
+### Mapa Mundial de Ataques de Tiburones
+
+![World Map of Attacks](img/attacks_world_map.png)
+- **Conclusión:** Estados Unidos, Australia y Sudáfrica son los países con mayor número de ataques de tiburones registrados.
+
+### Mapa de Ataques en Estados Unidos
+
+![USA Map of Attacks](img/attacks_usa_map.png)
+- **Conclusión:** Florida es el estado con el mayor número de ataques de tiburones en Estados Unidos, seguido por Hawaii y California.
+
+### Distribución de Ataques por Mes
+
+![Attacks by Month](img/months.png)
+- **Conclusión:** Los meses de enero, julio y agosto presentan el mayor número de ataques de tiburones, mientras que febrero, mayo y noviembre son los meses con menos ataques.
+
+### Tipos de Ataques de Tiburones
+
+![Types of Attacks](img/attack_types.png)
+- **Conclusión:** La mayoría de los ataques de tiburones son no provocados, seguidos por ataques provocados y relacionados con embarcaciones.
+
+### Actividades con Más Ataques
+
+![Activities](img/activities.png)
+- **Conclusión:** Surfing y swimming son las actividades con mayor riesgo de ataques de tiburones, mientras que actividades como skin diving y kayak fishing presentan menor riesgo.
+
+### Distribución de Ataques por Edad y Sexo
+
+![Age and Sex of Attacks](img/age_sex_attacks.png)
+- **Conclusión:** La mayoría de las víctimas de ataques de tiburones son hombres, y la distribución de edades muestra que los jóvenes son más propensos a ser atacados.
