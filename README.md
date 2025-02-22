@@ -1,5 +1,7 @@
 # Shark Attacks
 
+Este proyecto se centra en el análisis de datos de ataques de tiburones a nivel mundial. Utilizando un conjunto de datos detallado, hemos llevado a cabo un Análisis Exploratorio de Datos (EDA) para identificar tendencias, patrones y factores clave relacionados con los ataques de tiburones. A través de visualizaciones y conclusiones significativas, buscamos proporcionar una comprensión más profunda de estos eventos y sus características.
+
 ## Análisis Exploratorio de Datos (EDA)
 
 ### Evolución Histórica de Ataques de Tiburones
