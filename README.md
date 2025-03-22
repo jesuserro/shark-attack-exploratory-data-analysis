@@ -1,40 +1,87 @@
-# Shark Attacks
+# 🦈 Shark-Attack Exploratory Data Analysis (EDA)
 
-Este proyecto se centra en el análisis de datos de ataques de tiburones a nivel mundial. Utilizando un conjunto de datos detallado, hemos llevado a cabo un Análisis Exploratorio de Datos (EDA) para identificar tendencias, patrones y factores clave relacionados con los ataques de tiburones. A través de visualizaciones y conclusiones significativas, buscamos proporcionar una comprensión más profunda de estos eventos y sus características.
+This project focuses on the analysis of shark attack data worldwide. Using a detailed dataset, we have conducted an Exploratory Data Analysis (EDA) to identify trends, patterns, and key factors related to shark attacks. Through meaningful visualizations and conclusions, we aim to provide a deeper understanding of these events and their characteristics.
 
-## Análisis Exploratorio de Datos (EDA)
+## 🔍 Exploratory Data Analysis (EDA)
 
-### Evolución Histórica de Ataques de Tiburones
+### 📈 Historical Evolution of Shark Attacks
 
 ![Historical Attacks](img/historical_attacks.png)
-- **Conclusión:** La cantidad de ataques de tiburones ha mostrado una tendencia creciente a lo largo de los años, con picos significativos en décadas recientes.
+- **Conclusion:** The number of shark attacks has shown an increasing trend over the years, with significant peaks in recent decades.
 
-### Mapa Mundial de Ataques de Tiburones
+### 🌍 World Map of Shark Attacks
 
 ![World Map of Attacks](img/attacks_world_map.png)
-- **Conclusión:** Estados Unidos, Australia y Sudáfrica son los países con mayor número de ataques de tiburones registrados.
+- **Conclusion:** The United States, Australia, and South Africa are the countries with the highest number of recorded shark attacks.
 
-### Mapa de Ataques en Estados Unidos
+### 🇺🇸 USA Map of Shark Attacks
 
 ![USA Map of Attacks](img/attacks_usa_map.png)
-- **Conclusión:** Florida es el estado con el mayor número de ataques de tiburones en Estados Unidos, seguido por Hawaii y California.
+- **Conclusion:** Florida is the state with the highest number of shark attacks in the United States, followed by Hawaii and California.
 
-### Distribución de Ataques por Mes
+### 📅 Distribution of Attacks by Month
 
 ![Attacks by Month](img/months.png)
-- **Conclusión:** Los meses de enero, julio y agosto presentan el mayor número de ataques de tiburones, mientras que febrero, mayo y noviembre son los meses con menos ataques.
+- **Conclusion:** The months of January, July, and August have the highest number of shark attacks, while February, May, and November have the fewest attacks.
 
-### Tipos de Ataques de Tiburones
+### 🦈 Types of Shark Attacks
 
 ![Types of Attacks](img/attack_types.png)
-- **Conclusión:** La mayoría de los ataques de tiburones son no provocados, seguidos por ataques provocados y relacionados con embarcaciones.
+- **Conclusion:** Most shark attacks are unprovoked, followed by provoked attacks and those related to watercraft.
 
-### Actividades con Más Ataques
+### 🏄 Activities with Most Attacks
 
 ![Activities](img/activities.png)
-- **Conclusión:** Surfing y swimming son las actividades con mayor riesgo de ataques de tiburones, mientras que actividades como skin diving y kayak fishing presentan menor riesgo.
+- **Conclusion:** Surfing and swimming are the activities with the highest risk of shark attacks, while activities like skin diving and kayak fishing present lower risk.
 
-### Distribución de Ataques por Edad y Sexo
+### 👨‍👩‍👧‍👦 Distribution of Attacks by Age and Gender
 
 ![Age and Sex of Attacks](img/age_sex_attacks.png)
-- **Conclusión:** La mayoría de las víctimas de ataques de tiburones son hombres, y la distribución de edades muestra que los jóvenes son más propensos a ser atacados.
+- **Conclusion:** Most shark attack victims are men, and the age distribution shows that younger individuals are more prone to attacks.
+
+## 📊 Key Techniques Used
+
+1. **Data Cleaning**: Extensive data cleaning was performed to ensure the dataset's accuracy and consistency.
+2. **Data Visualization**: Various visualizations were created to illustrate trends and patterns in the data.
+3. **Geospatial Analysis**: Maps were used to show the geographical distribution of shark attacks.
+4. **Statistical Analysis**: Statistical methods were applied to identify significant trends and correlations.
+
+## 📂 Project Structure
+
+- `notebooks/`
+  - `main.ipynb`: Data cleaning and preprocessing.
+  - `exploratory_analysis.ipynb`: Exploratory data analysis and visualizations.
+- `data/`
+  - `raw/`: Raw data files.
+  - `processed/`: Cleaned and processed data files.
+- `img/`: Images used in the README and notebooks.
+
+## 🚀 Getting Started
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/Shark-Attack-EDA.git
+    cd Shark-Attack-EDA
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the notebooks**:
+    Open `main.ipynb` and `exploratory_analysis.ipynb` in Jupyter Notebook or JupyterLab and run the cells.
+
+## 📈 Results and Conclusions
+
+- The analysis revealed significant trends in shark attacks over time and across different regions.
+- The visualizations provided insights into the most dangerous activities and times of the year for shark attacks.
+- The findings can help inform safety measures and awareness campaigns to reduce the risk of shark attacks.
+
+## 📧 Contact
+
+For any questions or feedback, please contact [your email].
+
+---
+
+**Note:** This project is for educational purposes only. The data and conclusions should be interpreted with caution and in the context of broader research.
